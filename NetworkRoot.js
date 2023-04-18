@@ -53,15 +53,14 @@ exports.newNetworkRoot = function newNetworkRoot() {
             ws: require('ws'),
             simpleGit: require('simple-git'),
             graphql: require("@octokit/graphql"),
-            axios: require('axios')
+            axios: require('axios'),
+            crypto: require('crypto'),
+            octokit: require('@octokit/rest')
         }
         SA.version = require('./package.json').version
 
-        const saLogsPath = SA.nodeModules.path.join(global.env.PATH_TO_LOG_FILES, 'SA')
-        SA.logger = require('./loggerFactory').loggerFactory(saLogsPath)
-        
-        const ntLogsPath = SA.nodeModules.path.join(global.env.PATH_TO_LOG_FILES, 'NT')
-        NT.logger = require('./loggerFactory').loggerFactory(ntLogsPath)
+        const saLogsPath = SA.nodeModules.path.join(global.env.PATH_TO_LOG_FILES, 'Network')
+        SA.logger = require('./loggerFactory').loggerFactory(saLogsPath, 'NT')
 
         /* 
         Setting up the App Schema Memory Map. 

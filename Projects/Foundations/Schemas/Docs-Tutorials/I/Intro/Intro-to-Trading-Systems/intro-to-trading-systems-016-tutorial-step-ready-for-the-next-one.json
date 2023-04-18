@@ -28,6 +28,16 @@
                 "language": "NL",
                 "text": "Gefeliciteerd! U weet nu net zoveel over handelssystemen als ik! Hierna komt het definiëren van een handelsidee.",
                 "updated": 1670792432566
+            },
+            {
+                "language": "ID",
+                "text": "Selamat! kamu sekarang tahu banyak tentang trading system seperti aku! Berikutnya, Defining a Trading Idea.",
+                "updated": 1674626866580
+            },
+            {
+                "language": "ES",
+                "text": "¡Enhorabuena! Ahora sabes tanto sobre sistemas de trading como yo. Próximamente, vamos a definir una idea de trading.",
+                "updated": 1675620145913
             }
         ]
     },
@@ -55,6 +65,16 @@
                     "language": "NL",
                     "text": "De volgende zelfstudie in de serie gaat over het bepalen van handelsideeën in een formele hypothese, zodat het handelsidee kan worden getest. Het testen van een handelsidee is de eerste stap in het proces van het bouwen van een Trading Strategy!",
                     "updated": 1670792492546
+                },
+                {
+                    "language": "ID",
+                    "text": "Tutorial berikutnya dalam seri ini adalah tentang membingkai ide trading menjadi hipotesis formal sehingga ide trading dapat diuji. Menguji ide trading adalah langkah pertama dalam proses membangun Trading Strategy!",
+                    "updated": 1674626876207
+                },
+                {
+                    "language": "ES",
+                    "text": "El siguiente tutorial de la serie trata sobre cómo enmarcar las ideas de trading en una hipótesis formal para que la idea de trading pueda ser probada. Probar una idea de trading es el primer paso en el proceso de construcción de una estrategia de trading.",
+                    "updated": 1675620195766
                 }
             ]
         },
@@ -82,6 +102,16 @@
                     "language": "NL",
                     "text": "Klik Next om deze zelfstudie te beëindigen, en druk Play in de volgende als je er klaar voor bent!",
                     "updated": 1670792546610
+                },
+                {
+                    "language": "ID",
+                    "text": "Klik Next untuk menyelesaikan tutorial ini, dan pilih Play di tutorial berikutnya saat kamu siap!",
+                    "updated": 1674626884361
+                },
+                {
+                    "language": "ES",
+                    "text": "Haz clic en Next (Siguiente) para terminar este tutorial y selecciona Play (Reproducir) en el siguiente cuando estés listo.",
+                    "updated": 1675620188629
                 }
             ]
         }

@@ -44,6 +44,23 @@
             "text": "8) Faith Index"
         },
         {
+            "style": "List",
+            "text": "9) Strength Finder"
+        },
+        {
+            "style": "List",
+            "text": "10) Hawkeye"
+        },
+        {
+            "style": "List",
+            "text": "11) Volume Flow"
+        },
+        {
+            "style": "List",
+            "text": "12) Volume Trend Direction Force Index",
+            "updated": 1681364867578
+        },
+        {
             "style": "Title",
             "text": "Maintainer:"
         },

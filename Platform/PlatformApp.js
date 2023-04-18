@@ -75,12 +75,17 @@ exports.newPlatformApp = function newPlatformApp() {
             let WEB_SOCKETS_INTERFACE = require('./Client/webSocketsInterface.js')
             let HTTP_INTERFACE = require('./Client/httpInterface.js')
             let DASHBOARDS_WEB_SOCKET_INTERFACE = require('./Client/dashboardsInterface.js')
+
+            let RESTART_SERVER = require('./Client/restartServer')
+
             /*
             Setting up servers running inside this Client.
             */
             PL.servers = {}
             SA.logger.info('SUPERALGOS PLATFORM CLIENT SERVERS:')
             SA.logger.info('')
+
+            PL.servers.RESTART_SERVER = RESTART_SERVER.restartServer()
 
             PL.servers.WEB_SERVER = WEB_SERVER.newWebServer()
             PL.servers.WEB_SERVER.initialize()
@@ -171,8 +176,10 @@ exports.newPlatformApp = function newPlatformApp() {
             SA.logger.info('Superalgos Mobile ........................................... Will allow users to consume trading signals from their mobile phones.')
             SA.logger.info('')
             SA.logger.info('Join the @superalgosdevelop Telegram Group to learn more!')
-
             SA.logger.info('')
+            
+            SA.logger.debug('This is a debug line and you should only see this as a developer, because they have x-ray vision...')
+            SA.logger.debug('')
 
         } catch (err) {
             SA.logger.error('Platform App -> Error = ' + err.stack)
